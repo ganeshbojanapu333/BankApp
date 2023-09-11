@@ -137,7 +137,7 @@ namespace BankApp.Controllers
             catch (Exception)
             {
 
-                throw;
+                return StatusCode(500, "There is an error while creating account.");
             }
 
         }
@@ -171,7 +171,7 @@ namespace BankApp.Controllers
             catch (Exception)
             {
 
-                throw;
+                return StatusCode(500, "There is an error while deleting account.");
             }
            
         }
