@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/DataAccessLayer/bin/Debug/net6.0
+/DataAccessLayer/obj
+/BankXUnitTest/obj
+/BankXUnitTest/bin/Debug/net6.0
+/BankServiceLayer/obj
+/BankServiceLayer/bin/Debug/net6.0
+/BankDomainLayer/obj
+/BankDomainLayer/bin/Debug/net6.0
+/BankApp/obj
+/BankApp/bin/Debug/net6.0
+/BankApp/.vs
